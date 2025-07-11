@@ -4,9 +4,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Api", "src\Biogeno
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Infrastructure", "src\Biogenom.Infrastructure\Biogenom.Infrastructure.csproj", "{7C71C886-D5CE-4EB8-A701-391680053912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Application", "Biogenom.Application\Biogenom.Application.csproj", "{E3D1D6CD-D6BF-43F6-8693-626943769EF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Application", "src\Biogenom.Application\Biogenom.Application.csproj", "{E3D1D6CD-D6BF-43F6-8693-626943769EF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Domain", "Biogenom.Domain\Biogenom.Domain.csproj", "{2C03E4FE-AF30-40BA-9D58-6B6126D4C314}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.Domain", "src\Biogenom.Domain\Biogenom.Domain.csproj", "{2C03E4FE-AF30-40BA-9D58-6B6126D4C314}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
