@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Biogenom.Application\Biogenom.Application.csproj" />
+      <ProjectReference Include="..\..\Biogenom.Domain\Biogenom.Domain.csproj" />
+      <ProjectReference Include="..\Biogenom.Infrastructure\Biogenom.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="8.1.4" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="8.1.4" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.4" />
+    </ItemGroup>
+
+</Project>
